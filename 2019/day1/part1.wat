@@ -485,7 +485,7 @@
     ;; Local variables
     (local $dirfd i32)       ;; To store the directory file descriptor
     (local $fd i32)          ;; To store file descriptor
-    (local $errno i32)      ;; To store the result of wasi calls (TODO: rename errno)
+    (local $errno i32)      ;; To store the result of wasi calls
     (local $file_size i32)   ;; To store the file size
     (local $input_len i32)   ;; To store the amount of numbers read from input
 
